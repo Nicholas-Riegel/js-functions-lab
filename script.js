@@ -62,11 +62,11 @@ Complete Exercise 4 in the space below:
 */
 
 const sumArray = (array) => {
-  let product = 0;
+  let sum = 0;
   for(let i = 0; i < array.length; i++){
-    product += array[i]
+    sum += array[i]
   }
-  return product;
+  return sum;
 }
 // console.log('Exercise 4 Result:', sumArray([0, 7, 3]));
 
@@ -123,7 +123,7 @@ const longestStringInArray = (arr) => {
   }
   return str;
 }
-// console.log('Exercise 7 Result:', longestStringInArray(['a', 'bbbb', 'aaa', 'ccccccc']));
+// console.log('Exercise 7 Result:', longestStringInArray(['aaaaaaaaaaa', 'bbbb', 'dddddd', 'ccc']));
 
 /*
 Exercise 8: stringsLongerThan
