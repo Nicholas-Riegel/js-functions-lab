@@ -34,7 +34,7 @@ const maxOfThreeNumbers = (x, y, z) => {
   }
 }
 
-console.log('Exercise 2 Result:', maxOfThreeNumbers(8, 9, 10));
+// console.log('Exercise 2 Result:', maxOfThreeNumbers(6, 6, 7));
 
 /*
 Exercise 3: Insert at the Beginning
@@ -47,11 +47,13 @@ Complete Exercise 3 in the space below:
 const isCharAVowel = (char) => {
   if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'){
     return true;
+  } else if (char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U'){
+    return true;
   } else {
     return false;
   }
 }
-// console.log('Exercise 3 Result:', isCharAVowel('x'));
+console.log('Exercise 3 Result:', isCharAVowel('U'));
 
 /*
 Exercise 4: sumArray
